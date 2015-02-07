@@ -157,7 +157,6 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
-  background-image:image-url("Banner.gif");
 
   @include mobile {
     text-align: center;
@@ -178,6 +177,21 @@ img {
 
   img {
     border-radius: 5px;
+  }
+}
+
+.header-img {
+  float: center;
+  width: 1349px;
+  height: 111px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
   }
 }
 
