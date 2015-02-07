@@ -154,12 +154,12 @@ img {
   margin-bottom: 50px;
   background-image:url(https://raw.githubusercontent.com/kswarren/kswarren.github.io/master/images/Banner.gif);
   background-size:100%;
+  background-repeat: repeat-n;
 
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
   @include mobile {
     text-align: center;
   }
@@ -182,19 +182,6 @@ img {
   }
 }
 
-.header-img {
-  float: center;
-  background-size: 100%;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-  }
-}
 
 .site-info {
   float: left;
