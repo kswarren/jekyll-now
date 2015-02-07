@@ -152,6 +152,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background: .header-img;
 }
 
 .masthead {
@@ -182,8 +183,7 @@ img {
 
 .header-img {
   float: center;
-  width: 1349px;
-  height: 111px;
+  background-size: 100%;
 
   @include mobile {
     float: none;
