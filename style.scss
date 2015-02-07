@@ -157,7 +157,7 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
-  background-image: https://raw.githubusercontent.com/kswarren/kswarren.github.io/master/images/Banner.gif;
+  background-image:image-url("Banner.gif");
 
   @include mobile {
     text-align: center;
