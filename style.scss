@@ -152,15 +152,14 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-image:url(https://raw.githubusercontent.com/kswarren/kswarren.github.io/master/images/Banner.gif);
+  background-size:100%;
 
 }
 
 .masthead {
   padding: 20px 0;
-  background-image:url(https://raw.githubusercontent.com/kswarren/kswarren.github.io/master/images/Banner.gif);
-  background-size:100%;
   border-bottom: 1px solid $lightGray;
-
   @include mobile {
     text-align: center;
   }
